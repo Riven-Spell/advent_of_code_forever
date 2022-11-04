@@ -1,0 +1,27 @@
+package {{.Package}}
+
+import (
+    "github.com/Riven-Spell/advent_of_code_forever/solutions"
+)
+
+type Day{{.Day}}Solution struct {
+
+}
+
+func (s *Day{{.Day}}Solution) Prepare(input string) {
+
+}
+
+func (s *Day{{.Day}}Solution) Part1() any {
+    return nil
+}
+
+func (s *Day{{.Day}}Solution) Part2() any {
+    return nil
+}
+
+func init() {
+    solutions.Index.Insert({{.Day}}, {{.Year}}, &solutions.Day{
+        Solution: &Day{{.Day}}Solution{},
+    })
+}

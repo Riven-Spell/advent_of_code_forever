@@ -1,0 +1,5 @@
+The cache tool can download, generate, replace, or delete inputs.
+
+Generating inputs requires the "session" cookie set in the environment variable `AOCF_SESSION_COOKIE`.
+
+Environment variable settings can be viewed in `aocf env`
